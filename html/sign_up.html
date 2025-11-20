@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitzy</title>
+    <link rel="stylesheet" href="/css/sign_up.css"/>
+</head>
+<body>
+   <div class="home">
+     <a href="/index.html"><img    class="logo" src="/Assets/logo.png"  />Fitzy <span>Lift.Sweat.Repeat</span></a>
+   </div>
+    <div class="bmi_calculation"> 
+        <div>
+            <p>Unlock Your Perfect Plan</p> 
+            <div class="login">
+                <a href="sign_up.html  "><div class="sign_up">Sign Up</div></a>
+                <a href="sign_in.html"><div class="sign_in">Sign In</div></a>
+            </div>
+            <div class="form">
+                <h2>Create acount</h2>
+                <h1>Join Fitzy and start your personalized fitness journey today </h1>
+            </div>
+            <form class="get_details">
+                <div class="set1">
+                    <div>
+                       <label for="name">Enter your Name: </label><br/>
+                       <input class='enter' type="text" id="name" required>
+                    </div>
+                    <div>
+                       <label for="age">Enter your Age: </label><br/>
+                       <input class='enter' type="number" id="age" required>
+                    </div>                 
+                </div>
+                <div class="set1">
+                    <div>
+                       <label for="height">Enter your Height : </label><br/>
+                       <input class='enter' type="number" id="height"  required>
+                    </div>
+                    <div>
+                       <label for="weight">Enter your Weight : </label><br/>
+                       <input class='enter' type="number" id="weight" required>
+                    </div>                 
+                </div>               
+                <div class="set1">
+                    <div class="set">
+                       <label for="email">Enter your Email: </label><br/>
+                       <input class='enter' type="email" id="email" required>
+                    </div>
+                    <div>
+                       <label class="password"  for="pass">Enter your Password: </label><br/>
+                       <input   class='enter' type="password" id="pass" required>
+                    </div>                 
+                </div>
+                <div class="end_form">
+                    <div class="gender">
+                       <label  required >Enter your gender: </label><br/>
+                       <input  type="radio" name="gender" id="male">
+                       <label for="male">Male</label>
+                       <input  type="radio" name="gender" id="female" >
+                       <label for="female">Female</label>                      
+                    </div>   
+                    <div id="result" >Your BMI is </div>
+                    <div class="submit btn" onclick="total()"><button type="submit" >Continue</button></div>
+                </div>
+            </form>
+        </div>
+    </div>
+      <footer>
+        <p>&copy; fitzy Lift Sweat Repeat 2025</p>
+      </footer>
+</body>
+</html>
+
+
+<script>
+    function total() {
+        var num1 = document.getElementById("height"); 
+        var num2 = document.getElementById("weight"); 
+        var result = document.getElementById("result");
+
+        var height = Number(num1.value); // in cm
+        var weight = Number(num2.value); // in kg
+
+        var h = height / 100;
+        var bmi = weight / (h * h);
+        result.textContent = "Your BMI is: " + bmi.toFixed(2);
+    }
+</script>
+
+
