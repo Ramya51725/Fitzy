@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(to top, #fad0c43d 0%, #ffd1ff 100%);
+}
+.home{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 50px;
+  color: black;
+}
+span{
+  font-size: 25px;
+  color: rgb(129, 59, 129);
+}   
+.nav{
+    border-radius: 10px;
+    padding-top: 55px;
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100px;
+    padding-bottom: 50px;
+}
+.move{
+    margin-left: 15px;
+}
+.arranging_setting{
+    display: flex;
+}
+.set{
+    margin-left: 500px;
+    margin-bottom: 10px;
+}
+.set1{
+    margin-left: 360px;
+}
+.setting{
+    margin-left: 100px;
+}
+.box{
+    margin-top: 50px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+.box:hover{
+    transform: scale(1.01);
+}
+.profile_image{
+    margin-top:15px ;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+.logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      font-weight: 600;
+      color: #000;
+ }
+.profile_info{
+    margin-top: 20px;
+    margin-left: 40px;
+    display: flex;
+    gap: 130px;
+}
+.seperater{
+    margin-bottom: 20px;
+}
+.box2{
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.571);
+}
+.box2:hover{
+    transform: scale(1.01);
+}
+.two_types_of_info{
+    display: flex;
+    gap: 80px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.choose{
+    width: 500px;
+    border-radius: 6px;
+    padding: 5px;
+}
+.logo1{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 20px;
+      color: #000;
+      margin-bottom: 20px;
+}
+.log_out{
+    margin-top: 10px;
+    border: 1px solid black ;
+    border-radius: 10px;
+    width: 600px;
+    padding:5px ;
+    background-color: rgba(255, 0, 0, 0.476);
+}
+.log_out1{
+    border: 1px solid black ;
+    border-radius: 10px;
+    width: 600px;
+    padding:5px ;
+    background-color:rgba(0, 128, 0, 0.576);
+}
+.about_fitzy{
+    border: 1px solid black;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 20px;
+    margin-left: 30px;
+    background-color: rgba(255, 255, 255, 0.571);
+    margin-bottom: 120px;
+}
+.language{
+    margin-bottom: 30px;
+    width: 400px;
+    padding: 6px;
+    border-radius: 10px;
+}
+.about_fitzy:hover{
+    transform: scale(1.01);
+}
+footer{
+  background-color:rgba(0, 0, 0, 0.788);
+  color: white;
+  font-size: 20px;
+  margin-top: 7px;
+  padding: 8px;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(to top, #fad0c43d 0%, #ffd1ffd5 100%);
+
+}
+.home{
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 50px;
+  color: black;
+}
+span{
+  font-size: 25px;
+  color: rgb(129, 59, 129);
+}  
+.nav{
+    border-radius: 10px;
+    padding-top: 55px;
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 100px;
+    padding-bottom: 30px;
+}
+.move{
+    margin-left: 15px;
+}
+
+.arranging_exercise_flex{
+    display: flex;
+    padding-bottom: 100px;
+}
+.exercise{
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+    gap: 60px;
+}
+.exe_name{
+    margin-left: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: white;
+}
+.exe_name1{
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 20px;
+}
+.exe_name2{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+.days_plans{
+    border: 1px solid black; 
+    margin-left: 80px; 
+    margin-top: 80px;
+}
+.exe_name_gif{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background: white;
+}
+footer {
+  bottom: 0;
+ position: fixed;
+  width: 100%;
+  font-size: 20px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+}
+.explain_about_exe{
+    margin-left: 160px;
+    margin-top: 10px;
+}
+.exercise_heading{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.explain_about_exe h1{
+    margin-left: 10px;
+}
+.Instructions h2{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom:15px ;
+}
+ ul li{
+    margin-left:80px;
+    font-size: 17px;
+}
+.focus_areas{
+    border: 1px solid black;
+    width: 100px;
+    padding: 15px;
+    border-radius:10px ;
+    margin-top: 10px;
+}
+.focus_areas:hover{
+    transform: scale(1.05);
+}
+.area{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    margin-left: 80px;
+}
+
+
