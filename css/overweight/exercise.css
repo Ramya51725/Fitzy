@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 body{
 background: linear-gradient(to top, #fad0c43d 0%, #ffd1ff 100%);

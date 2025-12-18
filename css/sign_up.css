@@ -2,7 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+  font-family: Georgia, serif;
+  font-family: Georgia, serif;
 }
 .logo{
   width: 50px;
@@ -25,7 +26,7 @@ body {
 }
 .bmi_calculation{
   background-color:  hsla(210, 20%, 98%, 0.256); 
-    margin-top: 35px;
+    margin-top: 50px;
     margin-left: 100px;
     border: 2px solid black ;
     border-radius: 30px;
@@ -80,6 +81,13 @@ a{
   gap:130px;
   font-size: 24px;
 }
+.set12{
+  margin-top: 30px;
+  margin-left: 100px;
+  display: flex ;
+  gap:10px;
+  font-size: 24px;
+}
 .enter{
     margin-top: 10px;
     width: 200px;
@@ -88,7 +96,6 @@ a{
     border-radius: 20px;
     color: black;
     font-size: 15px;
-    margin-bottom: 20px;
 }
 .gender{
   margin-left: 30px;
@@ -97,15 +104,19 @@ a{
 }
 .end_form{
   display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
+  margin-left: 500px;
   margin-right: 120px;
+  margin-bottom: 20px;
+}
+.end_form button{
+  padding: 7px;
+  border-radius: 10px;
 }
 .submit{
   margin-right: 20px;color: black;
 }
 .btn{
-  padding: 8px;
+  padding: 50px;
   border-radius: 10px;
 }
 footer{
@@ -119,6 +130,10 @@ footer{
 footer p{
   display: flex;
   justify-content: center;
+}
+.error{
+  color: red;
+  font-size: 20px;
 }
 
 

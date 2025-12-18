@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitzy</title>
-    <link rel="stylesheet" href="/css/sign_in.css"/>
-</head>
-<body>
-   <div class="home">
-     <a href="/index.html"><img src="/Assets/logo.png"  width="50px" height="50px"/>Fitzy <span>Lift.Sweat.Repeat</span></a>
-   </div>
-    <div class="bmi_calculation"> 
-        <div class="login">
-            <a href="sign_up.html"><div class="sign_up">Sign Up</div></a>
-            <a href="sign_in.html"><div class="sign_in">Sign In</div></a>
-        </div>        
-        <div>
-            <form class="get_details">
-                <div class="set1">
-                    <div>
-                       <label for="mail">Enter your Mail: </label><br/>
-                       <input class='enter' type="mail" id="mail" required>
-                    </div>
-                    <div>
-                       <label class="password" for="pass">Enter your Password: </label><br/>
-                       <input class='enter' type="password" id="pass" required>
-                    </div>                 
-                </div>
-                    <div class="submit"><button type="submit" class="btn"><a href="/html/home.html">Continue</a></button></div>
-                </div>
-            </form>
-        </div>
+    <link rel="stylesheet" href="../css/sign_in.css" />
+  </head>
+  <body>
+    <div class="home">
+      <a href="/index.html">
+        <img src="/Assets/logo.png" width="50" height="50" />
+        Fitzy <span>Lift.Sweat.Repeat</span>
+      </a>
     </div>
-      <footer>
-        <p>&copy;  fitzy Lift Sweat Repeat 2025</p>
-      </footer>
-</body>
-</body>
+
+    <div class="bmi_calculation">
+      <div class="login">
+        <a href="sign_up.html"><div class="sign_up">Sign Up</div></a>
+        <a href="sign_in.html"><div class="sign_in">Sign In</div></a>
+      </div>
+
+      <form class="get_details" id="signinForm">
+        <div class="set1">
+          <div>
+            <label for="mail">Enter your Mail:</label><br />
+            <input class="enter" type="email" id="mail" required />
+          </div>
+
+          <div>
+            <label for="pass">Enter your Password:</label><br />
+            <input class="enter" type="password" id="pass" required />
+          </div>
+        </div>
+
+        <div class="submit">
+          <button type="submit" class="btn">Continue</button>
+        </div>
+
+        <p id="message"></p>
+      </form>
+    </div>
+
+    <footer>
+      <p>&copy; fitzy Lift Sweat Repeat 2025</p>
+    </footer>
+
+    <script src="../javascript/signin.js"></script>
+  </body>
 </html>

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 body{
     background: linear-gradient(to top, #fad0c43d 0%, #ffd1ffd5 100%);
@@ -72,7 +73,6 @@ span{
 }
 footer {
   bottom: 0;
- position: fixed;
   width: 100%;
   font-size: 20px;
   background-color: #222;
@@ -133,4 +133,109 @@ a{
     margin-top: 15px;
     font-size: 20px;
     margin-left: 30px;
+}
+
+
+@media (max-width: 480px){
+
+.home{
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+span{
+    font-size: 18px;
+}
+
+.nav {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin-top: 60px;
+  } 
+
+.move{
+    margin-left: 0;
+}
+
+.arranging_diet_flex{
+    flex-direction: column;
+}
+
+.diet_day{
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 20px;
+}
+.diet_day {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.diet_box,
+.diet_box1 {
+    width: 100%;  
+    font-size: 15px;
+    padding: 10px;
+}
+
+.diet {
+    width: 95%;
+    margin-left: 5px;
+}
+
+.days_plans{
+    width: 95%;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.food_type{
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10px;
+    padding: 15px;
+}
+
+.food_explaination{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.diet_heading{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.food_plan{
+    margin-left: 10px;
+}
+
+.food_plan ul{
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.veg_food,
+.Nonveg_food{
+    margin-left: 0;
+    width: 90%;
+    text-align: center;
+}
+
+footer{
+    font-size: 14px;
+    padding: 8px;
+}
 }

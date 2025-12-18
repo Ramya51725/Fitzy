@@ -1,98 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylesheet</title>
-    <link rel="stylesheet" href="/css/normal/normal.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitzy | Level 1</title>
+  <link rel="stylesheet" href="../../../css/normal/normal.css" />
 </head>
+
 <body>
-    <div class="home">
-      <a href="/html/normal/advance/advance.html"><img src="/Assets/logo.png" width="50px" height="50px" /></a>Fitzy
-      <span>Lift.Sweat.Repeat</span>
-    </div> 
-    <div class="arranging_exercise_flex">
-        <div class="nav"> 
-          <a href="/html/normal/expert/expert.html"><img class="move" src="/Assets/home.png" width="40px" height="40px" /></a>
-          <a href="/html/normal/normal_veg.html"><img  class="move" src="/Assets/apple.png" width="40px" height="40px" /></a>
-          <img
-            class="move"
-            src="/Assets/thumble.png"
-            width="45px"
-            height="70px"
-          />
-          <img
-            class="move"
-            src="/Assets/settings.png"
-            width="40px"
-            height="40px"
-          />
-        </div>
-        <div >
-            <div class="exercise">
-                <div>
-                    <a href="/html/normal/expert/level7.html"><img class="exe_name" src="/Assets/normal/expert/level7/burpees.jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name1">Burpees</p>
-                </div>
-                <div>
-                    <a href="/html/normal/expert/lev7_exe2.html"><img class="exe_name" src="/Assets/normal/expert/level7/backward_left.jpeg"  width="140px" height="160px"/></a>
-                    <p class="exe_name1">Backwards left kick</p>
-                </div>
-                <div>
-                    <a href="/html/normal/expert/lev7_exe3.html"><img class="exe_name" src="/Assets/normal/expert/level7/backward_right .jpeg"  width="140px" height="160px"/></a>
-                    <p class="exe_name1">Backwards right kick</p>
-                </div>
-           </div>
-           <div class="exercise">
-                <div>
-                    <a href="/html/normal/expert/lev7_exe4.html"><img class="exe_name" src="/Assets/normal/expert/level7/bulgarien_split.jpeg"  width="140px" height="160px"/></a>
-                    <p class="exe_name1">Bulgarian split left</p>
-                </div>
-                <div>
-                    <a href="/html/normal/expert/lev7_exe5.html"><img class="exe_name" src="/Assets/normal/expert/level7/bottom_right.jpeg"  width="140px" height="160px"/></a>
-                    <p class="exe_name2">Bottom leg lift right </p>
-                </div>
-                <div>
-                    <a href="/html/normal/expert/lev7_exe6.html"><img class="exe_name" src="/Assets/normal/expert/level7/bottom_left.jpeg"   width="140px" height="160px"/></a>
-                    <p class="exe_name1">Bottom leg lift left</p>
-                </div>           
-           </div>
-        </div>
-        <div class="days_plans"></div>
-        <div>
-            <div class="explain_about_exe">
-                <p class=exercise_heading>Burpees</p>
-                    <video class="exe_name_gif" width="140" height="160" controls autoplay muted loop>
-                        <source src="/Assets/normal/expert/level7/burpees.mp4" type="video/mp4">
-                    </video>
-            </div>
-                <div class="Instructions">
-                    <div> 
-                        <h2>Instructions</h2>
-                        <ul>
-                            <li>Stand with your feet shoulder width apart, then put <br/>your hands on the ground and kick your feet backward.<br/> Do a quick push-up and then jump up.</li><br/>
-                        </ul>
-                        <h2>Focus areas</h2>
-                        <div class="area">
-                            <p class="focus_areas">Abs</p>
-                            <p class="focus_areas">Chest</p>
-                            <p class="focus_areas">Glutes</p>
-                        </div>
-                        <div class="area">
-                            <p class="focus_areas">Quadriceps</p>
-                            <p class="focus_areas">Hamstrings</p>
-                            <p class="focus_areas">Triceps</p>
-                        </div>
-                        <div class="area">
-                            <p class="focus_areas">Shoulders</p>
-                            <p class="focus_areas">Calves</p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>  
-    <footer>
-      <p>&copy; fitzy Lift Sweat Repeat 2025</p>
-    </footer>
+
+  <div class="header">
+    <img src="/Assets/logo.png" width="45" height="45" />
+    <h2>Fitzy</h2>
+    <span>Lift.Sweat.Repeat</span>
+    <h3>Normal Exercise</h3>
+  </div>
+
+  <div class="main-container">
+
+    <div class="nav">
+      <a href="../../../html/normal/normal_home.html"><img src="/Assets/home.png" /></a>
+      <a href="../../../html/normal/normal_veg.html"><img src="/Assets/apple.png" /></a>
+      <a href="../../../html/normal/exercises/chest.html"><img src="/Assets/thumble.png" /></a>
+      <a href="../../../html/normal/settings.html"><img src="/Assets/settings.png" /></a>
+    </div>
+
+    <div id="exerciseContainer" class="exercise-grid">
+      <p>Loading exercises...</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="exercise-detail" id="exerciseDetail">
+      <p>Select an exercise</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; Fitzy Lift Sweat Repeat 2025</p>
+  </footer>
+
+  <script src="../../../javascript/normal/level7.js"></script>
 </body>
 </html>

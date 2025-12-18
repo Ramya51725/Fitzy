@@ -1,99 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stylesheet</title>
-    <link rel="stylesheet" href="/css/overweight/overweight.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitzy | Level 1</title>
+  <link rel="stylesheet" href="../../../css/overweight/overweight.css" />
 </head>
+
 <body>
-    <div class="home">
-      <a href="/html/home.html"><img src="/Assets/logo.png" width="50px" height="50px" /></a>Fitzy
-      <span>Lift.Sweat.Repeat</span>
-    </div> 
-    <div class="arranging_exercise_flex">
-        <div class="nav"> 
-          <a href="/html/overweight/intermediate/intermediate.html"><img class="move" src="/Assets/home.png" width="40px" height="40px" /></a>
-          <a href="/html/overweight/overweight_v eg.html"><img  class="move" src="/Assets/apple.png" width="40px" height="40px" /></a>
-          <a href="/html/overweight/exercise.html"><img
-            class="move"
-            src="/Assets/thumble.png"
-            width="45px"
-            height="70px"
-          /></a>
-          <a href="/html/overweight/settings.html"><img
-            class="move"
-            src="/Assets/settings.png"
-            width="40px"
-            height="40px"
-          /></a>
-        </div>
-        <div >
-            <div class="exercise">
-                <div>
-                    <a href="/html/overweight/intermediate/level4.html"><img class="exe_name" src="/Assets/overweight/intermediate/level4/backward_left.jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name1">Backward lunge left</p>
-                </div>
-                <div>
-                    <a href="/html/overweight/intermediate/lev4_exe2.html"><img class="exe_name" src="/Assets/overweight/intermediate/level4/backward_right .jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name1">Backward lunge <br/> right</p>
-                </div>
-                <div>
-                    <a href="/html/overweight/intermediate/lev4_exe3.html"><img class="exe_name" src="/Assets/overweight/intermediate/level4/Back_arches.jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name1">Back arches</p>
-                </div>
-           </div>
-           <div class="exercise">
-                <div>
-                    <a href="/html/overweight/intermediate/lev4_exe4.html"><img class="exe_name" src="/Assets/overweight/intermediate/level4/cursty_lunges.jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name1">Cursty lunges</p>
-                </div>
-                <div>
-                    <a href="/html/overweight/intermediate/lev4_exe5.html"><img class="exe_name" src="/Assets/overweight/intermediate/level4/dumbell_puches.jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name2">Dumbell punch</p>
-                </div>
-                <div>
-                    <a href="/html/overweight/intermediate/lev4_exe6.html"><img class="exe_name" src="/Assets/overweight/intermediate/level4/spider_lunges.jpeg" width="140px" height="160px"/></a>
-                    <p class="exe_name1">fast spider lunges</p>
-                </div>           
-           </div>
-        </div>
-        <div class="days_plans"></div>
-        <div>
-            <div class="explain_about_exe">
-                <p class=exercise_heading>Backward lunge left</p>
-                    <video class="exe_name_gif" width="140" height="160" controls autoplay muted loop>
-                        <source  src="/Assets/overweight/intermediate/level4/backward_left.mp4" type="video/mp4">
-                    </video>
-            </div>
-               <div class="Instructions">
-                    <div> 
-                        <h2>Instructions</h2>
-                        <ul>
-                            <li>Run in place while pulling your knees as <br/>high as possible with each step.</li></br>
-                            <li>Keep your upper body upright during this exercise.</li>
-                        </ul>
-                        <h2>Breathing Tip</h2>
-                        <ul>
-                            <li>Inhale and exhale in a steady rhythm throughout the exercise.</li></br>
-                        </ul>
-                        <h2>Focus areas</h2>
-                        <div class="area">
-                            <p class="focus_areas">Glutes</p>
-                            <p class="focus_areas">Quadriceps</p>
-                            <p class="focus_areas">Hamstrings</p>
-                        </div>
-                        <div class="area">
-                            <p class="focus_areas">Calves</p>
-                            <p class="focus_areas">Back</p>
-                            <p class="focus_areas">Chest</p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>  
-    <footer>
-      <p>&copy; fitzy Lift Sweat Repeat 2025</p>
-    </footer>
+
+  <div class="header">
+    <img src="/Assets/logo.png" width="45" height="45" />
+    <h2>Fitzy</h2>
+    <span>Lift.Sweat.Repeat</span>
+    <h3>Overweight Exercise</h3>
+  </div>
+
+  <div class="main-container">
+
+    <div class="nav">
+      <a href="../../../html/overweight/overweight.html"><img src="/Assets/home.png" /></a>
+      <a href="../../../html/overweight/overweight_veg.html"><img src="/Assets/apple.png" /></a>
+      <a href="../../../html/overweight/exercises/chest.html"><img src="/Assets/thumble.png" /></a>
+      <a href="../../../html/overweight/settings.html"><img src="/Assets/settings.png" /></a>
+    </div>
+
+    <div id="exerciseContainer" class="exercise-grid">
+      <p>Loading exercises...</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="exercise-detail" id="exerciseDetail">
+      <p>Select an exercise</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>&copy; Fitzy Lift Sweat Repeat 2025</p>
+  </footer>
+
+  <script src="../../../javascript/overweight/level4.js"></script>
 </body>
 </html>

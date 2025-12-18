@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 body{
 background: linear-gradient(to top, #fad0c43d 0%, #ffd1ff 100%);
@@ -11,6 +12,9 @@ background: linear-gradient(to top, #fad0c43d 0%, #ffd1ff 100%);
   padding-left: 30px;
   font-size: 50px;
   color: black;
+}
+.home p{
+    font-size: 25px;
 }
 span{
   font-size: 25px;
@@ -157,3 +161,166 @@ a{
     margin-left: 40px;
 }
 
+
+
+@media (max-width: 768px) {
+
+.home {
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 28px;
+}
+span {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.move{
+    width: 25px;
+    height: 25px;
+}
+h1{
+    font-size: 25px;
+}
+
+.nav {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 95%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+    .four_weeks_plan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+.plans {
+    margin: 0;
+    width: 90%;
+    height: auto;
+    text-align: center;
+}
+
+.Weeks {
+    width: 200px;
+    margin-top: 40px;
+}
+
+
+.foundation_week {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.foundation_week h2 {
+    text-align: center;
+    font-size: 22px;
+}
+
+.status {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.week1 {
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.arranging_weeks_flex {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+    align-items: center;
+}
+
+.Arrranging_weeks_and_plans {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .days_plans {
+    width: 95%;
+    height: auto;
+    border: none;
+    margin: 0;
+    
+}
+
+.levels {
+    margin-left: 0;
+    gap: 30px;
+    align-items: center;
+}
+
+.level1 {
+    width: 90%;
+    height: auto;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.name_of_level {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.quate {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px;
+}
+
+.level-btn {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+}
+
+.images_button {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about_level {
+    font-size: 22px;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+footer p {
+    justify-content: center;
+}
+}
